@@ -14,7 +14,7 @@
 }
 
 .container {
-  width: 1200px;
+  width: 1400px;
   margin: auto;
 }
 body {
@@ -68,7 +68,7 @@ a:hover {
 
 #head-img {
   height: 350px;
-  width: 1200px;
+  width: 1400px;
 }
 
 .main {
@@ -86,13 +86,18 @@ article h2 {
   margin-left: 15px;
 }
 
-.movie img {
+.movie {
   margin-left: 2px;
+  padding: 15px;
+}
 
-  border-color: 2px solid var(--foot);
+.movie img {
+  border: 2px solid var(--foot);
+  cursor: pointer;
 }
 
 .author {
+  
   background-color: var(--head);
   margin: 45px 15px 15px 15px;
   padding: 15px;
