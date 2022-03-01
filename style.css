@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Roboto:wght@300;500;700&display=swap");
+
+:root {
+  --bg-color: rgb(238, 206, 26);
+  --light: white;
+  --head: rgb(58, 133, 219);
+  --foot: rgb(12, 66, 148);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+body {
+  background-color: var(--bg-color);
+}
+
+.cover,
+.container,
+nav,
+.author,
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  padding: 5px 5px;
+  background-color: var(--head);
+  color: var(--light);
+}
+
+article p {
+  font-family: Montserrat, sans-serif;
+  color: rgb(24, 22, 22);
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 15px;
+
+}
+
+nav {
+  background-color: var(--head);
+  margin: 45px 15px 15px 15px;
+  padding: 30px;
+  font-size: 1.5rem;
+  flex: 1;
+}
+
+nav a {
+  color: var(--light);
+  font-weight: bold;
+  padding: 0 3px 0 3px;
+}
+
+a:hover {
+  color: var(--bg-color);
+}
+
+#head-img {
+  height: 350px;
+  width: 1200px;
+}
+
+.main {
+  display: flex;
+  background-color: var(--light);
+  font-family: Montserrat, sans-serif;
+  align-items: flex-start;
+}
+article {
+  flex: 2;
+}
+article h2 {
+  color: rgb(233, 174, 12);
+  font-size: 2rem;
+  margin: 45px 15px 15px 0;
+}
+
+.author {
+  background-color: var(--head);
+  margin: 45px 15px 15px 15px;
+  padding: 15px;
+  font-size: 1.2rem;
+  text-align: center;
+  flex: 1;
+}
+
+.matt_gro_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid white;
+}
+
+.author h2 {
+  color: white;
+}
+
+.author p {
+  padding-top: 10px;
+  color: white;
+  
+}
+
+footer {
+  text-align: center;
+  padding: 10px 10px;
+  background-color: var(--foot);
+  color: var(--light);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
